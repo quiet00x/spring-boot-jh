@@ -1,6 +1,6 @@
-package com.bangb.common.validation.utils;
+package com.bangb.validation.utils;
 
-import common.exception.LocalException;
+import com.bangb.exception.LocalException;
 
 import javax.validation.ConstraintViolation;
 import javax.validation.Validation;

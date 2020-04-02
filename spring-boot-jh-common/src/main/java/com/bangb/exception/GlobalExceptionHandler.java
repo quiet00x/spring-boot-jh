@@ -1,7 +1,7 @@
-package common.exception;
+package com.bangb.exception;
 
-import common.enums.ResultEnum;
-import common.response.ResponseResult;
+import com.bangb.enums.ResultEnum;
+import com.bangb.response.ResponseResult;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.converter.HttpMessageNotReadableException;

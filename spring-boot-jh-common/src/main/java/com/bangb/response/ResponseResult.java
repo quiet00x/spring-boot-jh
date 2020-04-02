@@ -1,6 +1,6 @@
-package common.response;
+package com.bangb.response;
 
-import common.enums.ResultEnum;
+import com.bangb.enums.ResultEnum;
 import lombok.Data;
 
 /**

@@ -1,4 +1,4 @@
-import com.bangb.common.validation.constraints.ValidCardNumber;
+import com.bangb.validation.constraints.ValidCardNumber;
 import lombok.Data;
 
 import javax.validation.constraints.Max;

@@ -1,7 +1,7 @@
-package com.bangb.common.validation.constraints;
+package com.bangb.validation.constraints;
 
 
-import com.bangb.common.validation.CardNumberConstraintValidator;
+import com.bangb.validation.CardNumberConstraintValidator;
 
 import javax.validation.Constraint;
 import javax.validation.Payload;

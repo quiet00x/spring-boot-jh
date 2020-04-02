@@ -1,4 +1,4 @@
-package com.bangb.common.validation.config;
+package com.bangb.validation.config;
 
 import lombok.extern.slf4j.Slf4j;
 import org.hibernate.validator.HibernateValidator;

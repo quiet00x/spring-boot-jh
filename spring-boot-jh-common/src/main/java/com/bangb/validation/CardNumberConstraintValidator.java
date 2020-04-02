@@ -1,6 +1,6 @@
-package com.bangb.common.validation;
+package com.bangb.validation;
 
-import com.bangb.common.validation.constraints.ValidCardNumber;
+import com.bangb.validation.constraints.ValidCardNumber;
 import org.apache.commons.lang3.ArrayUtils;
 import org.apache.commons.lang3.StringUtils;
 

@@ -13,6 +13,7 @@ import javax.validation.ValidatorFactory;
  * @project_name: spring-boot-webflux
  * @date: 2020/4/3 - 0:53
  * @author: Mr_Bangb
+ * SpringBoot自动装配只能自动装配启动类所在工程中的 配置类
  */
 @Configuration
 @Slf4j

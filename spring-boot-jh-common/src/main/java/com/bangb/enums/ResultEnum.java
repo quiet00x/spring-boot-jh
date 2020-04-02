@@ -1,4 +1,4 @@
-package common.enums;
+package com.bangb.enums;
 
 /**
  * @project_name: spring-boot-webflux
