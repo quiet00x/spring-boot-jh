@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <modules>
+        <module>spring-boot-jh-common</module>
+        <module>spring-boot-jh-pojo</module>
+        <module>spring-boot-jh-mapper</module>
+        <module>spring-boot-jh-service</module>
+        <module>spring-boot-jh-web</module>
+    </modules>
+    <!-- spring-boot-starter-paren 为SpringBoot 工程父依赖
+        子模块只能继承一个父类，所以在父工程添加该依赖，因依赖具有传递性，子模块同样会依赖该模块-->
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.2.6.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+    <!-- 父工程坐标 -->
+    <groupId>com.bangb</groupId>
+    <artifactId>spring-boot-jh</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <!-- 修改打包方式为pom 该种打包方式不会编译该工程下的源码 -->
+    <packaging>pom</packaging>
+    <!-- 统一管理 JDK版本，编码，以及各依赖版本号 -->
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+    </properties>
+
+</project>
