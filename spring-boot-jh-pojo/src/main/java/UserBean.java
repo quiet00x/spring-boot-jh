@@ -1,5 +1,7 @@
 import com.bangb.validation.constraints.ValidCardNumber;
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import javax.validation.constraints.Max;
 import javax.validation.constraints.NotBlank;
@@ -10,6 +12,8 @@ import javax.validation.constraints.NotBlank;
  * @author: Mr_Bangb
  */
 @Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class UserBean {
     @NotBlank(message = "编号不能为空")
     @Max(value = 1000,message = "id不能大于1000")
