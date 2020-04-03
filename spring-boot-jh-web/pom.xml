@@ -17,6 +17,7 @@
             <artifactId>spring-boot-jh-service</artifactId>
             <version>${project.version}</version>
         </dependency>
+
         <!-- SpringBoot 测试工具 范围为test不能传递，所以需要在测试的工程中添加 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
